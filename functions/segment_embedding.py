@@ -1,7 +1,7 @@
+import torch
 from pyannote.audio import Audio
 from pyannote.core import Segment
 from pyannote.audio.pipelines.speaker_verification import PretrainedSpeakerEmbedding
-import torch
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
