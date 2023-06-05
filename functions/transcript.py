@@ -15,7 +15,6 @@ def transcript(path):
 
     return path, segments
 
-
 def transcript_to_txt(segments, path="transcript.txt"):
   f = open(path, "w")
 
